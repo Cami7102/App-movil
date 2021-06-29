@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.*
 import com.example.myfirstapplication.inicio.Usuario as Usuario1
 
-abstract class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
 
     val databaseController = DatabaseController(this)
 

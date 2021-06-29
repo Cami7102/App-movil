@@ -5,11 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".ui.login.RegisterActivity">
+    tools:ignore="MissingClass">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -56,20 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button9" />
-
-    <ProgressBar
-        android:id="@+id/loading"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="64dp"
-        android:layout_marginBottom="64dp"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintTop_toBottomOf="@+id/colores" />
 
     <TextView
         android:id="@+id/textView"
@@ -89,7 +72,7 @@
         app:layout_constraintTop_toBottomOf="@+id/titulo" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/cambiarpasses"
         android:layout_width="334dp"
         android:layout_height="43dp"
         android:layout_marginStart="24dp"
@@ -103,7 +86,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/borrares"
         android:layout_width="334dp"
         android:layout_height="43dp"
         android:layout_marginStart="24dp"
@@ -114,25 +97,25 @@
         app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
+        app:layout_constraintTop_toBottomOf="@+id/cambiarpasses" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/colores"
         android:layout_width="334dp"
         android:layout_height="43dp"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        android:text="Button"
+        android:text="Color"
         app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button8" />
+        app:layout_constraintTop_toBottomOf="@+id/borrares" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/editarperfiles"
         android:layout_width="334dp"
         android:layout_height="43dp"
         android:layout_marginStart="24dp"
@@ -146,7 +129,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/fondos"
         android:layout_width="334dp"
         android:layout_height="43dp"
         android:layout_marginStart="24dp"
@@ -157,10 +140,10 @@
         app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button10" />
+        app:layout_constraintTop_toBottomOf="@+id/editarperfiles" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/avatares"
         android:layout_width="334dp"
         android:layout_height="43dp"
         android:layout_marginStart="24dp"
@@ -171,10 +154,10 @@
         app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button11" />
+        app:layout_constraintTop_toBottomOf="@+id/fondos" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/guardar"
         android:layout_width="334dp"
         android:layout_height="43dp"
         android:layout_marginStart="24dp"
@@ -186,7 +169,7 @@
         app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button12" />
+        app:layout_constraintTop_toBottomOf="@+id/avatares" />
 
 
 
