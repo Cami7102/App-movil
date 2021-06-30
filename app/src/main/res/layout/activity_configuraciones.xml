@@ -115,20 +115,6 @@
         app:layout_constraintTop_toBottomOf="@+id/borrares" />
 
     <Button
-        android:id="@+id/editarperfiles"
-        android:layout_width="334dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        android:text="Editar Perfil"
-        app:backgroundTint="#FF5722"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <Button
         android:id="@+id/fondos"
         android:layout_width="334dp"
         android:layout_height="43dp"
@@ -139,22 +125,9 @@
         android:text="Fondo de pantalla"
         app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editarperfiles" />
-
-    <Button
-        android:id="@+id/avatares"
-        android:layout_width="334dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginRight="24dp"
-        android:text="Avatar"
-        app:backgroundTint="#FF5722"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fondos" />
+        tools:layout_editor_absoluteY="299dp" />
 
     <Button
         android:id="@+id/guardar"
@@ -162,14 +135,13 @@
         android:layout_height="43dp"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
-        android:layout_marginTop="180dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:text="Guardar Cambios"
         app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/avatares" />
+        tools:layout_editor_absoluteY="599dp" />
 
 
 

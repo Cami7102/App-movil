@@ -6,9 +6,7 @@ import android.os.Bundle;
 
 import com.example.myfirstapplication.MainActivity;
 import com.example.myfirstapplication.R;
-import com.example.myfirstapplication.configuracion.configuraciones.CambiarAvatar;
 import com.example.myfirstapplication.configuracion.configuraciones.CambiarContrasenia;
-import com.example.myfirstapplication.configuracion.configuraciones.EditarPerfil;
 import com.example.myfirstapplication.configuracion.configuraciones.EliminarUsuario;
 import com.example.myfirstapplication.configuracion.configuraciones.Fondo;
 
@@ -27,7 +25,6 @@ public class Configuraciones extends AppCompatActivity {
     Button fondos;
     Button cambiarpasses;
     Button editarperfiles;
-    Button avatares;
     Button borrares;
     Button guardar;
 
@@ -75,26 +72,6 @@ public class Configuraciones extends AppCompatActivity {
             public void onClick(View v3) {
                 Intent cambiarpasses = new Intent(Configuraciones.this, CambiarContrasenia.class);
                 startActivity(cambiarpasses);
-            }
-        });
-
-
-
-        editarperfiles=(Button)findViewById(R.id.editarperfiles);
-        editarperfiles.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v5) {
-                Intent editarperfiles = new Intent(Configuraciones.this, EditarPerfil.class);
-                startActivity(editarperfiles);
-            }
-        });
-
-        avatares=(Button)findViewById(R.id.avatares);
-        avatares.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v5) {
-                Intent avatares = new Intent(Configuraciones.this, CambiarAvatar.class);
-                startActivity(avatares);
             }
         });
 
